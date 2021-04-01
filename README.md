@@ -6,13 +6,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start:dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `db.json`
+there are two db.json files
+one in src folder, which does nothing. This file is just for reference.
+the second db.json file is in App1 folder, which is responsible for all the create, edit and delete operations.
+
+### so lets talk about the second db.json file
+
+if you deleted all data from dummy database, then copy paste the data from first db.json file into second db.json file.
+
 
 ### `npm test`
 
