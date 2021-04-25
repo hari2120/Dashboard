@@ -29,6 +29,8 @@ const Home = () => {
     }
     return (
         <div className="container">
+            <h4>to see this app's complete functionality run this thing in terminal or cmd...</h4>
+            <p>npm run start:dev</p>
             <div className="py-4">
             <table class="table border shadow">
                 <thead class="thead-dark">
